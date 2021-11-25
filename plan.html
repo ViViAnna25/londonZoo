@@ -121,7 +121,54 @@
         <h3>Directions</h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.796577274536!2d-0.15561898407416916!3d51.53529081648434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad73297f857%3A0xb1723f26e03c12a8!2sZSL%20London%20Zoo!5e0!3m2!1sen!2suk!4v1637855281562!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <div>&nbsp;</div>
-        <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#tube">Tube</button>
+        <div id="accordion">
+            <div class="card">
+            <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapseOne">Tube</a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                    <h6>Camden Town (16 mins / 0.8 miles walk from the Zoo)</h6>
+                    <p>Camden Town station (Northern Line) is the nearest Underground station to the Zoo.</p>
+                    <h6>Chalk Farm (18 mins / 0.9 miles walk)</h6>
+                    <p>Camden Town station can get extremely busy, especially at weekends. Chalk Farm (Northern Line) is an ideal alternative, approximately the same walking distance from the Zoo.
+                        Chalk Farm station has lift access and this route offers a pleasant walking route through Primrose Hill’s pretty residential streets and beside Primrose Hill park.</p>
+                    <h6>Baker Street (21 mins / 1.1 miles walk) / (14 mins via 274 bus)</h6>
+                    <p>Walking from Baker Street (Bakerloo, Circle, Metropolitan and Hammersmith & City Lines) is via Regent’s Park.
+                        Alternatively, take the 274 bus northbound, which leaves every 12 minutes.</p>
+                    <h6>Regent’s Park (24 mins / 1.2 miles walk)</h6>
+                    <p>The Zoo is an easy walk from Regent’s Park station (Bakerloo Line). Once out of the station and across Marylebone Road, the whole route is signposted and within leafy Regent’s Park.
+                        Alternatively, take the 88 bus northbound from nearby Albany Street (exit Regent’s Park tube station to the right) to approximately halve the walking distance.</p>
+                </div>
+            </div>
+            </div>
+            <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                Collapsible Group Item #2
+                </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                Lorem ipsum..
+                </div>
+            </div>
+            </div>
+            <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                Collapsible Group Item #3
+                </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                Lorem ipsum..
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="text">
+            <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#tube">Tube</button>
             <div id="tube" class="collapse">
                 <h6>Camden Town (16 mins / 0.8 miles walk from the Zoo)</h6>
                 <p>Camden Town station (Northern Line) is the nearest Underground station to the Zoo.</p>
@@ -135,5 +182,6 @@
                 <p>The Zoo is an easy walk from Regent’s Park station (Bakerloo Line). Once out of the station and across Marylebone Road, the whole route is signposted and within leafy Regent’s Park.
                     Alternatively, take the 88 bus northbound from nearby Albany Street (exit Regent’s Park tube station to the right) to approximately halve the walking distance.</p>
             </div>
+        </div>
     </body>
 </html>
