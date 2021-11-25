@@ -31,6 +31,13 @@ body {
     text-align: center;
 }
 
+#animalHeading{
+    color:rgb(219, 118, 24);
+    font-size: 45px;
+    
+
+}
+
 .hover-overlay {
     background: linear-gradient(45deg,
         rgba(29, 160, 236, 0.5),
@@ -40,10 +47,11 @@ body {
 #routes {
     background-color: pink;
     text-align: center;
-    
+    color:rgb(122, 6, 138);
 }
 
 #routesBlue {
     background-color: blue;
     text-align: center;
+    color:white;
 }
