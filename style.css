@@ -47,3 +47,17 @@ body {
     background-color: blue;
     text-align: center;
 }
+
+.card-header{
+    background-color: #BCEBBC;
+    font-size: large;
+}
+
+a{
+    color: rgb(11, 51, 11);
+}
+
+.card-body{
+    background-color: #D3EBBC;
+    font-size: large;
+}
