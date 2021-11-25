@@ -7,6 +7,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Lobster&family=Tajawal:wght@300;400&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav class="navbar navbar-expand-sm bg-success navbar-dark">
@@ -27,11 +29,15 @@
         </nav>
         <div class="row">
             <div class="col-sm-4">
-                <h3>Directions</h3>
+                <div class="header">
+                    <h1>Map</h1>
+                </div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.796577274536!2d-0.15561898407416916!3d51.53529081648434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad73297f857%3A0xb1723f26e03c12a8!2sZSL%20London%20Zoo!5e0!3m2!1sen!2suk!4v1637855281562!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div class="col-sm-4">
-                <h3>Ticket Prices</h3>
+                <div class="header">
+                    <h1>Ticket Prices</h1>
+                </div>
                 <table class="table">
                     <thead>
                     <tr>
@@ -100,7 +106,9 @@
                 </table>
             </div>
             <div class="col-sm-4">
-                <h3>Opening Times</h3>
+                <div class="header">
+                    <h1>Opening Times</h1>
+                </div>
                 <table class="table">
                     <thead>
                     <tr>
@@ -121,7 +129,9 @@
                 </table>
             </div>
         </div>
-        <div>&nbsp;</div>
+        <div class="header">
+            <h1>Directions</h1>
+        </div>
         <div id="accordion">
             <div class="card">
                 <div class="card-header">
