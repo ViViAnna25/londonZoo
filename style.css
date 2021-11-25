@@ -1,7 +1,44 @@
-.card{
+.header {
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(217, 252, 255);
+}
+
+/* .carousel {
+    height: auto;
+    width: 300px;
+}
+
+.carousel-item {
+    height: 100%;
+    width: 100%;
+} */
+
+.text {
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    border: 2px rgb(0, 2, 117) solid;
+    margin: 10px;
+}
+
+.row {
+    text-align: center;
+}
+
+.col-sm-4 {
 
 }
 
+.hover-overlay {
+    background: linear-gradient(45deg,
+        rgba(29, 160, 236, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
 #routes {
     background-color: pink;
     text-align: center;
