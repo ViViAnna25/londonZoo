@@ -39,3 +39,12 @@ body {
     background: linear-gradient(45deg,
         rgba(29, 160, 236, 0.5),
         rgba(91, 14, 214, 0.5) 100%
+#routes {
+    background-color: pink;
+    text-align: center;
+    
+}
+
+animalHeading {
+    padding: 20%;
+}
