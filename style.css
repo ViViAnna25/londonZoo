@@ -31,14 +31,12 @@ body {
     text-align: center;
 }
 
-.col-sm-4 {
-
-}
-
 .hover-overlay {
     background: linear-gradient(45deg,
         rgba(29, 160, 236, 0.5),
-        rgba(91, 14, 214, 0.5) 100%
+        rgba(91, 14, 214, 0.5) 100%)
+}
+
 #routes {
     background-color: pink;
     text-align: center;
@@ -48,7 +46,4 @@ body {
 #routesBlue {
     background-color: blue;
     text-align: center;
-    
-animalHeading {
-    padding: 20%;
 }
